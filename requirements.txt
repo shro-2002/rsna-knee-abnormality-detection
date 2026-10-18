@@ -1,0 +1,13 @@
+# Versions verified by the CPU test suite on Python 3.13.5 (macOS arm64, 2026-10-18).
+# The scored Kaggle runs used the Kaggle Python image named in README.md; its exact package pins were not captured.
+numpy==2.5.4
+pandas==3.0.6
+torch==2.14.1
+timm==1.0.30
+opencv-python-headless==5.0.0.93
+pydicom==3.0.2
+pillow==12.3.0
+pyarrow==26.0.0          # parquet label caches (src/e1/labels.py)
+pytest==9.1.1
+# Optional: decoders for JPEG-compressed DICOMs (present in the Kaggle image; not needed for the tests)
+# pylibjpeg pylibjpeg-libjpeg pylibjpeg-openjpeg

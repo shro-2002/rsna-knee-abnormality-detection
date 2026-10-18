@@ -1,0 +1,10 @@
+[project]
+name = "rsna-knee-2026"
+version = "1.0.0"
+description = "Knee-MRI abnormality detection (RSNA 2026 Kaggle): DICOM preprocessing, MIL training, rank-blend inference"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

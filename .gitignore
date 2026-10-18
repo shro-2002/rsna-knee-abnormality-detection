@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.DS_Store
+# never commit data, weights or credentials
+*.dcm
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+/data/
+/checkpoints/
+/out/
+kaggle.json
+.env
+# superseded by SHA256SUMS (stale copy kept on disk only)
+MANIFEST.sha256

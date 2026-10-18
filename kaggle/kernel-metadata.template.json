@@ -1,0 +1,20 @@
+{
+  "id": "<your-username>/rsna-knee-ediv-reproduce",
+  "title": "rsna-knee-ediv-reproduce",
+  "code_file": "ediv_sub.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "<your-username>/<this-bundle-as-dataset>",
+    "dreaddevelopment/raptor-knee-maxspan",
+    "dreaddevelopment/raptor-knee-native384dense",
+    "dreaddevelopment/raptor-knee-finespacing",
+    "goodpjw2008/rsna-knee-2-5d-convnext-reader"
+  ],
+  "competition_sources": ["rsna-knee-abnormality-detection"],
+  "kernel_sources": []
+}
